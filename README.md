@@ -15,13 +15,13 @@ The main scope of this project is applying Machine Learning algoritms on the gra
 
 
 # Structure
-
-
-            ProjectPipeline.png
-          
+![This is an image](https://github.com/ferasalnaem/Master-thesis/blob/main/ProjectPipeline.png)
+         
 1) Data Preprocessing: see "Data_preprocessing.ipynb"
 -> The Draper dataset can be downloaded from : https://osf.io/d45bw/ to the './Dataset' directory
+
 -> Exploring the Draper dataset, preparing data frames, then applying under-sampling to generate balanced subsets.
+
 -> The generated balanced subsets should be saved in './Dataset/' directory
 
 2) AST extracting : 
