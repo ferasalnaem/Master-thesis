@@ -48,8 +48,6 @@ In "GNN_experiments.ipynb" a GNN model is built for graph embedding and classifi
 
 
 # Results
-The generated learning curves (loss & accuracy) by training MLP and GNN on each CWE category can be seen in the folder 'plots'
-
-The processed learning curves that include losses for both models (MLP and GNN) on each CWE category can be seen in the folder 'plots_processed'
+The obtained learning curves by training MLP and GNN on each CWE category can be seen in the folder 'Learning curves'.
 
 The results of evaluating the models regarding the used performance metrics (Accuracy, Precision, Recall and F1-score) as well as losses are collected after each experiment and can be seen in the following file 'Results.pdf'.
