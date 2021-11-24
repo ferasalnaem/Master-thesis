@@ -25,7 +25,7 @@ The main scope of this project is applying Machine Learning (ML) algoritms on th
 2) AST extracting : 
 ASTs are extracted using Clang in both approaches.
 
-1. The first approach :
+         1. The first approach :
 
 In the following notebook "AST_extracting.ipynb", the following steps are performed:
 * Extracting AST from each source code using Clang, which contains features and edges. 
