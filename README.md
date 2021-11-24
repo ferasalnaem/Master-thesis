@@ -11,10 +11,10 @@ The main scope of this project is applying Machine Learning (ML) algoritms on th
 6. Download graph2vec from: https://github.com/benedekrozemberczki/graph2vec
 
 
-# Structure
+## Structure
 ![This is an image](https://github.com/ferasalnaem/Master-thesis/blob/main/ProjectPipeline.png)
          
-1) Data Preprocessing: [Data_preprocessing.ipynb](https://github.com/ferasalnaem/Master-thesis/blob/main/Data_preprocessing.ipynb)
+# 1) Data Preprocessing: [Data_preprocessing.ipynb](https://github.com/ferasalnaem/Master-thesis/blob/main/Data_preprocessing.ipynb)
 
 * The Draper dataset can be downloaded from : https://osf.io/d45bw/ to the './Dataset' directory
 
@@ -25,7 +25,7 @@ The main scope of this project is applying Machine Learning (ML) algoritms on th
 2) AST extracting : 
 ASTs are extracted using Clang in both approaches.
 
-         1. The first approach :
+1. The first approach :
 
 In the following notebook "AST_extracting.ipynb", the following steps are performed:
 * Extracting AST from each source code using Clang, which contains features and edges. 
