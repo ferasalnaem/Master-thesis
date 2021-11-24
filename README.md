@@ -24,13 +24,15 @@ The main scope of this project is applying Machine Learning algoritms on the gra
 2) AST extracting : 
 ASTs are extracted using Clang in both approaches.
 
-1. The first approach 
+1. The first approach :
+
 In the following notebook "AST_extracting.ipynb", the following steps are performed:
-* Extracting AST from each source code using Clan, which contains features and edges. 
+* Extracting AST from each source code using Clang, which contains features and edges. 
 * saving each graph in a json file under ./graph2vec/dataset/graph2vec_input (first download the graph2vec model), to be processed later using graph2vec.
 * To see how an extracted AST of a source code looks like, see "clang_example.ipynb"
 
-2. The second approach
+2. The second approach:
+
 Extracting ASTs in the second approach is done in "GNN_experiments.ipynb". In this approach ASTs are extracted and a graph-dataset is built on Pytorch Geometric
 
 3) Graph- Embedding & Classification: 
