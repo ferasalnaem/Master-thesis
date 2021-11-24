@@ -14,7 +14,7 @@ The main scope of this project is applying Machine Learning (ML) algoritms on th
 # Structure
 ![This is an image](https://github.com/ferasalnaem/Master-thesis/blob/main/ProjectPipeline.png)
          
-1) Data Preprocessing: [a link](https://github.com/ferasalnaem/Master-thesis/blob/main/Data_preprocessing.ipynb)
+1) Data Preprocessing: [Data_preprocessing.ipynb](https://github.com/ferasalnaem/Master-thesis/blob/main/Data_preprocessing.ipynb)
 2) see "Data_preprocessing.ipynb"
 -> The Draper dataset can be downloaded from : https://osf.io/d45bw/ to the './Dataset' directory
 
