@@ -29,7 +29,7 @@ ASTs are extracted using Clang in both approaches.
 
     In the following notebook [AST_extracting.ipynb](https://github.com/ferasalnaem/Master-thesis/blob/main/AST_extracting.ipynb), the following steps are performed:
     * Extracting AST from each source code using Clang, which contains features and edges. 
-    * saving each graph in a json file under ./graph2vec/dataset/graph2vec_input (first download the graph2vec model), to be processed later using graph2vec.
+    * Saving each graph in a json file under ./graph2vec/dataset/graph2vec_input (first download the graph2vec model), to be processed later using graph2vec.
     * To see how an extracted AST of a source code looks like, see [clang_example.ipynb](https://github.com/ferasalnaem/Master-thesis/blob/main/clang_example.ipynb).
 
    The second approach:
