@@ -16,11 +16,11 @@ The main scope of this project is applying Machine Learning (ML) algoritms on th
          
 1) Data Preprocessing: [Data_preprocessing.ipynb](https://github.com/ferasalnaem/Master-thesis/blob/main/Data_preprocessing.ipynb)
 
-* The Draper dataset can be downloaded from : https://osf.io/d45bw/ to the './Dataset' directory
+* The Draper dataset can be downloaded from : https://osf.io/d45bw/ to the './Dataset' directory.
 
 * Exploring the Draper dataset, preparing data frames, then applying under-sampling to generate balanced subsets.
 
-* The generated balanced subsets should be saved in './Dataset/' directory
+* The generated balanced subsets should be saved in './Dataset/' directory.
 
 2) AST extracting : 
 ASTs are extracted using Clang in both approaches.
@@ -30,7 +30,7 @@ ASTs are extracted using Clang in both approaches.
     In the following notebook [AST_extracting.ipynb](https://github.com/ferasalnaem/Master-thesis/blob/main/AST_extracting.ipynb), the following steps are performed:
     * Extracting AST from each source code using Clang, which contains features and edges. 
     * saving each graph in a json file under ./graph2vec/dataset/graph2vec_input (first download the graph2vec model), to be processed later using graph2vec.
-    * To see how an extracted AST of a source code looks like, see [clang_example.ipynb](https://github.com/ferasalnaem/Master-thesis/blob/main/clang_example.ipynb)
+    * To see how an extracted AST of a source code looks like, see [clang_example.ipynb](https://github.com/ferasalnaem/Master-thesis/blob/main/clang_example.ipynb).
 
    The second approach:
 
@@ -43,7 +43,7 @@ ASTs are extracted using Clang in both approaches.
     - The first one is based on using graph2v2c to generate graph embeddings. 
     To create an embedding of the generated ASTs in the 'graph2vec_input' directory, run the following:
     $ python src/graph2vec.py --input-path dataset/graph2vec_input/ --output-path features/<file_name>.csv
-    After that, the graph embeddings could be seen in './graph2vec/features'
+    After that, the graph embeddings could be seen in './graph2vec/features'.
 
     - Machine Learning classifiers such as SVM and MLP are implemented in [ML_experiments.ipynb](https://github.com/ferasalnaem/Master-thesis/blob/main/ML_experiments.ipynb) to the generated embeddings for each CWE category.
 
