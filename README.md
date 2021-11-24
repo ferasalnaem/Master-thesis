@@ -17,9 +17,9 @@ The main scope of this project is applying Machine Learning (ML) algoritms on th
 1) Data Preprocessing: see "Data_preprocessing.ipynb"
 -> The Draper dataset can be downloaded from : https://osf.io/d45bw/ to the './Dataset' directory
 
--> Exploring the Draper dataset, preparing data frames, then applying under-sampling to generate balanced subsets.
+* Exploring the Draper dataset, preparing data frames, then applying under-sampling to generate balanced subsets.
 
--> The generated balanced subsets should be saved in './Dataset/' directory
+* The generated balanced subsets should be saved in './Dataset/' directory
 
 2) AST extracting : 
 ASTs are extracted using Clang in both approaches.
