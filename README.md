@@ -42,7 +42,9 @@ ASTs are extracted using Clang in both approaches.
    1. The first approach:
     - The first one is based on using graph2v2c to generate graph embeddings. 
     To create an embedding of the generated ASTs in the 'graph2vec_input' directory, run the following:
-    $ python src/graph2vec.py --input-path dataset/graph2vec_input/ --output-path features/<file_name>.csv
+    
+         $ python src/graph2vec.py --input-path dataset/graph2vec_input/ --output-path features/<file_name>.csv
+    
     After that, the graph embeddings could be seen in './graph2vec/features'.
 
     - Machine Learning classifiers such as SVM and MLP are implemented in [ML_experiments.ipynb](https://github.com/ferasalnaem/Master-thesis/blob/main/ML_experiments.ipynb) to the generated embeddings for each CWE category.
