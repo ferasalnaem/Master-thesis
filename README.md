@@ -2,6 +2,9 @@
 
 The main scope of this project is applying Machine Learning (ML) algoritms on the graph structure of source code, which is extracted in this project based on the Abstract Syntax Tree (AST) of source code. We propose two approaches for learning graph embeddings of source code in the context of suitable classification to distinguish vulnerable and non-vulnerable code samples. The first approach is based on graph2vec that represents an entire graph as a fixed length feature vector. Based on this representation, classical ML models such as a Support Vector Machine (SVM) and a Multi-Layer Perceptron (MLP) are applied as classifiers.  The second approach is based on the use of Graph Neural Networks (GNNs), which can be applied directly to graphs, and provide an end-to-end capability for node-, edge- and graph-level embedding and prediction.
 
+# Link to the paper
+https://cos.bibl.th-koeln.de/frontdoor/deliver/index/docId/963/file/Koelner_Beitraege_zur_Technischen_Informatik_2022_01.pdf
+
 # Prerequisites
 1. Anaconda 4.10.1
 2. python 3.8.10
